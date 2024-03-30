@@ -36,7 +36,7 @@
 ```
 ## installation
 
-Pastikan Sudah Menginstall Termux [disini](https://drive.google.com/file/d/10oWTqfX_xZ0L6BoXbmpZHyRpak5tsToi/view?usp=share_link )
+Pastikan Sudah Menginstall Termux [disini](https://drive.google.com/file/d/17P5y-IKhXcWPfc8lp5s0LQH3hvZOlKgQ/view?usp=drive_link )
 Buka Aplikasi Termux nya 
 
 * lalu jalankan seperti ini
@@ -48,9 +48,12 @@ NB: jika ada perintah tekan saja y / Y
 
 2. ``` pkg install git -y ```
 
-3.  ``` git clone https://github.com/ANGEOM21/xampp-termux.git ```
+3.  ``` git clone https://github.com/ANGEOM21/mampp-termux.git ```
 
-4. ``` cd xampp-termux ```
+NB: jika menggunkan git harap install dulu gh ``` pkg install gh -y ``` dan lakukan login github
+disarankan mendowload zip
+
+4. ``` cd mampp-termux ```
 
 5. ``` ./configure.sh ```
 
