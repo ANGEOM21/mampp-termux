@@ -12,6 +12,7 @@ if pgrep -x "httpd" > /dev/null; then
     apachectl stop > /dev/null 2>&1
     echo "Apache berhasil dihentikan."
 else
+    apachectl stop
     echo "Apache sudah tidak berjalan."
 fi
 
