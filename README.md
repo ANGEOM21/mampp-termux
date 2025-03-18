@@ -21,10 +21,10 @@
 
 ## Requirement
 
-* Apache 2.4
-* PHP 8.2.0
-* PHPMYADMIN 4.9.11
-* Mariadb 11.3.0
+* Apache 2.4.63
+* PHP 8.4.2
+* PHPMYADMIN 5.2.2
+* Mariadb 11.8.0
 
 ## Structure
 
@@ -39,15 +39,10 @@
  ┃ ┣ 📜config.inc.php
  ┗ 📜configure.sh
 ```
-config.inc.php
--rw-rw----. 1 root everybody 21096 Mar 18 18:53 httpd.conf
-drwxrwx---. 3 root everybody  3488 Mar 18 18:53 php
--rw-rw----. 1 root everybody     0 Mar 18 18:53 php_module.conf
--rw-rw----. 1 root everybody   505 Mar 18 19:30 start-server
--rw-rw----. 1 root everybody   619 Mar 18 19:30 stop-server
+
 ## installation
 
-Pastikan Sudah Menginstall Termux [disini](https://drive.google.com/file/d/17P5y-IKhXcWPfc8lp5s0LQH3hvZOlKgQ/view?usp=drive_link )
+Pastikan Sudah Menginstall Termux [disini](https://drive.google.com/file/d/17P5y-IKhXcWPfc8lp5s0LQH3hvZOlKgQ/view?usp=drive_link ) 
 Buka Aplikasi Termux nya 
 
 * lalu jalankan seperti ini
