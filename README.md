@@ -32,8 +32,17 @@
  ┃ ┗ 📂php/htdocs
  ┃ ┣ 📜httpd.conf
  ┃ ┣ 📜php_module.conf
+ ┃ ┣ 📜start-server
+ ┃ ┣ 📜stop-server
+ ┃ ┣ 📜config.inc.php
  ┗ 📜configure.sh
 ```
+config.inc.php
+-rw-rw----. 1 root everybody 21096 Mar 18 18:53 httpd.conf
+drwxrwx---. 3 root everybody  3488 Mar 18 18:53 php
+-rw-rw----. 1 root everybody     0 Mar 18 18:53 php_module.conf
+-rw-rw----. 1 root everybody   505 Mar 18 19:30 start-server
+-rw-rw----. 1 root everybody   619 Mar 18 19:30 stop-server
 ## installation
 
 Pastikan Sudah Menginstall Termux [disini](https://drive.google.com/file/d/17P5y-IKhXcWPfc8lp5s0LQH3hvZOlKgQ/view?usp=drive_link )
@@ -59,14 +68,17 @@ disarankan mendowload zip
 
 * jika sudah selesai semuanya jalanakan perintah berikut
 ```
-apachectl
+./start-server
 ```
 * lalu buka localhost:8080
-* jika ingin membuka phpmyadmin jalankan dulu perintah berikut
-```
-mysqld_safe
-```
+* jika ingin membuka phpmyadmin 
 * buka localhost:8080/phpmyadmin
+
+* untuk menghentikan server jalankan perintah berikut
+```
+./stop-server
+```
+
   
 ### NB:
 
@@ -82,4 +94,5 @@ nanti akan di buatkan
 
 * CREDITS
 
-* [ancode__](https://www.instagram.com/ancode__/) - My INSTAGRAM
+* [an_geom21](https://www.instagram.com/an_geom21/) - My INSTAGRAM
+* [angeom21](t.me/angeom21) - My TELEGRAM
