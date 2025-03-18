@@ -1,7 +1,5 @@
-# Xampp - Termux v.1.0.1
-## Apache, Mysql, Mariadb, PHP, PhpMyAdmin
-## VERSION 2025 
-## PHP 8.4
+# Xampp - Termux v.1.0.1 | 2025
+## Apache, Mysql, Mariadb, PHP, PhpMyAdmin 
 
 ## Feature
 
