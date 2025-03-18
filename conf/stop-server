@@ -1,0 +1,26 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+# Tampilkan banner keren
+clear
+toilet -F metal "STOPPING"
+
+# Hentikan Apache & MySQL
+echo -e "\nMenghentikan Apache dan MariaDB..."
+
+# Hentikan Apache jika berjalan
+if pgrep -x "httpd" > /dev/null; then
+    apachectl stop > /dev/null 2>&1
+    echo "Apache berhasil dihentikan."
+else
+    echo "Apache sudah tidak berjalan."
+fi
+
+# Hentikan MySQL jika berjalan
+if pgrep -x "mysqld" > /dev/null; then
+    killall mysqld mysqld_safe > /dev/null 2>&1
+    echo "MySQL berhasil dihentikan."
+else
+    echo "MySQL sudah tidak berjalan."
+fi
+
+echo -e "\nSemua layanan telah dihentikan."
